@@ -18,7 +18,7 @@ import os
 sys.path.insert(0, os.path.abspath('/Users/jessicabean/Library/CloudStorage/OneDrive-Personal/porftfolio.github.io/projects/kpi_recommender_system/notebooks'))
 
 # Now import
-from kpi_recommender_system import KPIRecommender
+from projects.kpi_recommender_system.kpi_recommender_system import KPIRecommender
 
 recommender = KPIRecommender()
 df_kpis = recommender.load_kpi_database()
@@ -51,7 +51,7 @@ print("✅ Libraries imported successfully")
 
 # %%
 # Load the KPI database
-from kpi_recommender_system import KPIRecommender
+from projects.kpi_recommender_system.kpi_recommender_system import KPIRecommender
 
 recommender = KPIRecommender()
 df_kpis = recommender.load_kpi_database()
